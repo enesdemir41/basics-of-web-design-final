@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <title>Twitter'dan hisse değeri ve kripto</title>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        
+        <div id="header">
+        
+            <div id="headerresim">
+                <div id="homepage">
+    
+                    <a href="index.html" ><img id="homepage" class="headerhover" src="trade.png" alt=""></a>
+    
+                </div>
+                
+                
+    
+            </div>
+    
+            <div id="header-menu1" class="headerhover">
+                <a href="borsa.html">BORSA</a>
+            </div>
+    
+            <div id="header-menu2" class="headerhover">
+                <a href="kripto.html" >KRİPTO PARALAR</a>
+            </div>
+    
+            <div id="header-menu3" class="headerhover">
+                <a href="analiz.html" >ANALİZ</a>
+            </div>
+            
+            <div id="header-menu4" class="headerhover">
+                <a href="borsa.html" >EĞİTİM</a>
+            </div>
+    
+            <div id="header-menu5" class="headerhover">
+                <a href="haberler.html" >HABERLER</a>
+            </div>
+    
+            <div id="header-menu6" class="headerhover">
+                <a href="makale.html" >MAKALELER</a>
+    
+            </div>
+    
+            <div id="header-menu7" class="headerhover">
+                <a href="borsa.html">YATIRIM</a>
+            
+             </div>
+    
+                
+        </div>
+
+        <div id="container6">
+            <div class="icanalizresim">
+                <img src="haber8.jpg" alt="">
+            </div>
+            <div class="icanalizicerik">
+                <p>
+                    Son dönemde adından sıkça söz ettiren Twitter'dan hisse değeri ve kripto para birimi değerlerini sunan yeni bir uygulama geldi. Grafik ve değerlere arama bölümünden kolayca ulaşılabiliyor. Twitter hisse görünümünün detayı için ise alım-satım sitesine yönlendirme yapıyor
+                    <br> Elon Musk’ın satın almasından sonra kaosa sürüklenen Twitter’dan yepyeni bir uygulama geldi. Uygulama, belirlenen şirket hisse senetlerini ve kripto para birimi fiyatlarını aramayı sağlayan kullanışlı bir özellik sundu. <br>
+                    <br> Yapılan açıklamaya göre, kullanıcılar önünde dolar işareti ile bir hisse senedi, borsa yatırım fonu ya da kripto para biriminin sembolünü paylaştığında, söz konusu varlığın fiyat endeksine ve grafiğine ulaşabilecek. <br>
+                    <br> Bunu yapmak için, kullanıcıların arama çubuğuna dolar sembolünü ($) ve ardından ilgili hisse senedi sembolünü (örneğin, $GOOG veya $ETH) yazmaları yeterli oluyor. Aramanın ardından direkt olarak Twitter geçerli fiyatı ve grafiği ekrana yansıtıyor. Firma tarafından yapılan açıklamada, bazı durumlarda $ sembolünü kullanmadan da çalışabildiği ancak her zaman hisse senedi veya kripto fiyatlarını istenildiği gibi göstermediği belirtiliyor <br>
+                    <br> Buna ek olarak grafiğin alt bölümünde verileri Trade “Robinhood’da görüntüle” butonu yer alıyor. Bu özellik Twitter ile Robinhood'un iş birliği içerisinde bu girişimi yürüttüğü iddialarını da kuvvetlendiriyor. Buna tıklandığı taktirde kullanıcılar TradingView'dan verileri çeken Robinhood'un kendi sitesine yönlendirilerek aradıkları stokların anlık değerlerini de görebiliyorlar ve alım satım işlemi de gerçekleştirebiliyorlar <br>
+                </p>
+            </div>
+
+            <div class="yorum">
+
+                <div class="kulyorum">
+                    <textarea type="text" id="texta" onchange="yaz()" name="comment" maxlength="255" placeholder="Sen de soru ve düşüncelerini paylaş."></textarea>
+    
+                </div>
+                <div .class="gonder">
+                    <button class="gonder" onclick="yaz()">Gönder</button>
+                </div>
+    
+                <img src="comment.png" alt="">
+                <h2>Yorumlar</h2>
+                <div>
+                <h5 id="your1" style="font-size: 20px; margin-left: 20px;" ></h5>
+                <span id="yorumunuz"></span>
+                </div>
+            </div>
+            <script>
+    
+                    function yaz() {
+    
+                        let texta= document.getElementById("texta").value
+                        
+                        document.getElementById("yorumunuz").innerHTML = texta;
+                        document.getElementById("your1").innerHTML = "Yorumunuz:"
+                            
+    
+                            
+                                
+                        
+                    }
+    
+            </script>
+
+        </div>
+
+
+    </body>
+</html>

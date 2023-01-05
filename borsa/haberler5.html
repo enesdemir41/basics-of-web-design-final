@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <title>ABD tarihindeki en büyük dolandırıcılık</title>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        
+        <div id="header">
+        
+            <div id="headerresim">
+                <div id="homepage">
+    
+                    <a href="index.html" ><img id="homepage" class="headerhover" src="trade.png" alt=""></a>
+    
+                </div>
+                
+                
+    
+            </div>
+    
+            <div id="header-menu1" class="headerhover">
+                <a href="borsa.html">BORSA</a>
+            </div>
+    
+            <div id="header-menu2" class="headerhover">
+                <a href="kripto.html" >KRİPTO PARALAR</a>
+            </div>
+    
+            <div id="header-menu3" class="headerhover">
+                <a href="analiz.html" >ANALİZ</a>
+            </div>
+            
+            <div id="header-menu4" class="headerhover">
+                <a href="borsa.html" >EĞİTİM</a>
+            </div>
+    
+            <div id="header-menu5" class="headerhover">
+                <a href="haberler.html" >HABERLER</a>
+            </div>
+    
+            <div id="header-menu6" class="headerhover">
+                <a href="makale.html" >MAKALELER</a>
+    
+            </div>
+    
+            <div id="header-menu7" class="headerhover">
+                <a href="borsa.html">YATIRIM</a>
+            
+             </div>
+    
+                
+        </div>
+
+        <div id="container6">
+            <div class="icanalizresim">
+                <img src="haber5.jpg" alt="">
+            </div>
+            <div class="icanalizicerik">
+                <p>
+                    ABD tarihindeki en büyük dolandırıcılık davalarından birinde yargılanan FTX’in kurucusu Sam Bankman-Fried’ın 250 milyon dolarlık kefaletle serbest bırakılmasına karar verildi. <br>
+                    <br> İflas eden kripto para borsası FTX’in kurucusu Sam Bankman-Fried, New York’ta görülen duruşmada 250 milyon dolarlık kefalet ve ev hapsi şartıyla serbest bırakıldı. Geçen hafta Bahamalar’da gözaltına alınmasının ardından 8 dolandırıcılık ve kara para aklama suçlamasıyla karşı karşıya olan Bankman-Fried’ın ebeveynleri Stanford Hukuk profesörleri Barbara ve Allan Bankman-Fried ve bir akrabası da dahil olmak üzere toplam 4 kişinin eski milyardere kefil olduğu bildirildi. Ailesinin California’daki 4 milyon dolar değerinde olan evinde gözetim altında yaşayacak olan Bankman-Fried’ın düzenli olarak psikolojik tedavi almayı da kabul ettiği ifade edildi. ABD tarihindeki en büyük dolandırıcılıklardan birine imza atan Bankman-Fried’ın 3 Ocak’ta mahkemeye çıkacağı belirtildi. <br>
+
+                    <br> Sam Bankman-Fried’ın 250 milyon dolarlık kefaletinin ABD tarihindeki en büyük kefaletlerden biri olduğu açıklandı. Bankman-Fried’ın yalnızca 100 bin doları olabileceği belirtilirken, ABD tarihindeki en yüksek kefalet Teksas’ta cinayet suçlamasıyla karşı karşıya kalmasının ardından kefaletle serbest bırakılan emlak varisi Robert Durst için belirlenen 3 milyar dolarlık kefalet olduğu bildirildi. Genelev işlettiği belirlenen Kim Freeman’a 2010 yılında 1 milyar dolarlık kefalet belirlenmişti. 80’li yılların en pahalı brokeri olan Michael Milken insider trading suçundan 250 milyon dolar kefalet ödemek zorunda kalmıştı. <br>
+                </p>
+            </div>
+
+            <div class="yorum">
+
+                <div class="kulyorum">
+                    <textarea type="text" id="texta" onchange="yaz()" name="comment" maxlength="255" placeholder="Sen de soru ve düşüncelerini paylaş."></textarea>
+    
+                </div>
+                <div .class="gonder">
+                    <button class="gonder" onclick="yaz()">Gönder</button>
+                </div>
+    
+                <img src="comment.png" alt="">
+                <h2>Yorumlar</h2>
+                <div>
+                <h5 id="your1" style="font-size: 20px; margin-left: 20px;" ></h5>
+                <span id="yorumunuz"></span>
+                </div>
+            </div>
+            <script>
+    
+                    function yaz() {
+    
+                        let texta= document.getElementById("texta").value
+                        
+                        document.getElementById("yorumunuz").innerHTML = texta;
+                        document.getElementById("your1").innerHTML = "Yorumunuz:"
+                            
+    
+                            
+                                
+                        
+                    }
+    
+            </script>
+
+        </div>
+
+
+    </body>
+</html>

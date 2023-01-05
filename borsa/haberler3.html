@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <title>Türkiye Cumhuriyet Merkez Bankası</title>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        
+        <div id="header">
+        
+            <div id="headerresim">
+                <div id="homepage">
+    
+                    <a href="index.html" ><img id="homepage" class="headerhover" src="trade.png" alt=""></a>
+    
+                </div>
+                
+                
+    
+            </div>
+    
+            <div id="header-menu1" class="headerhover">
+                <a href="borsa.html">BORSA</a>
+            </div>
+    
+            <div id="header-menu2" class="headerhover">
+                <a href="kripto.html" >KRİPTO PARALAR</a>
+            </div>
+    
+            <div id="header-menu3" class="headerhover">
+                <a href="analiz.html" >ANALİZ</a>
+            </div>
+            
+            <div id="header-menu4" class="headerhover">
+                <a href="borsa.html" >EĞİTİM</a>
+            </div>
+    
+            <div id="header-menu5" class="headerhover">
+                <a href="haberler.html" >HABERLER</a>
+            </div>
+    
+            <div id="header-menu6" class="headerhover">
+                <a href="makale.html" >MAKALELER</a>
+    
+            </div>
+    
+            <div id="header-menu7" class="headerhover">
+                <a href="borsa.html">YATIRIM</a>
+            
+             </div>
+    
+                
+        </div>
+
+        <div id="container6">
+            <div class="icanalizresim">
+                <img src="haber3.jpg" alt="">
+            </div>
+            <div class="icanalizicerik">
+                <p>
+                    Türkiye Cumhuriyet Merkez Bankası (TCMB) '2023 Yılı Para ve Kur Politikası Metni'ne ilişkin duyuru yayımladı. <br>
+                    <br>
+                    TCMB'nin internet sitesine yer alan duyuruda, bankanın her yıl Aralık ayında, takip eden yıl izleyeceği para ve kur politikalarını Para ve Kur Politikası Metni aracılığıyla kamuoyu ile paylaştığı hatırlatılarak, "2023 Yılı Para ve Kur Politikası Metni, 30 Aralık 2022 Cuma günü saat 10.00’da yayımlanacaktır" denildi. <br>
+                    <br>Fiyat istikrarını sağlamak için tüm araçlar kullanılmaya devam edilecek
+                    1. Türkiye Cumhuriyet Merkez Bankası'nın temel amacı fiyat istikrarını sağlamak ve sürdürmektir. <br> Bu amaç doğrultusunda, sahip olunan tüm araçlar kullanılmaya devam edilecektir. Kalıcı fiyat istikrarını destekleyici bir unsur olarak finansal istikrar gözetilecektir. TCMB’nin bütünleşik politika çerçevesi olan Liralaşma Stratejisi güçlendirilerek uygulanmaya devam edilecektir. <br>
+                    <br>Orta vadeli enflasyon hedefi yüzde 5
+                    2. Enflasyon hedeflemesi rejimi çerçevesinde, Hükümet ile birlikte belirlenen orta vadeli enflasyon hedefi yüzde 5 olarak korunmuştur. <br> Enflasyon Raporu’nda açıklanan tahminlerara hedef olarak kullanılarak, para politikası enflasyonu orta vadeli hedefine kademeli olarak yaklaştıracak şekilde oluşturulacaktır. <br>
+                    <br> Piyasa faizlerinin politika faizleriyle uyumlu seyretmesi sağlanacak
+                    3. TCMB’nin temel politika aracı bir hafta vadeli repo ihale faiz oranıdır. <br> Piyasa faizlerinin politika faizleriyle uyumlu seyretmesi sağlanarak parasal aktarım mekanizmasının etkinliğini destekleyici politikalar sürdürülecektir. <br>
+                    
+                   
+            </div>
+
+            <div class="yorum">
+
+                <div class="kulyorum">
+                    <textarea type="text" id="texta" onchange="yaz()" name="comment" maxlength="255" placeholder="Sen de soru ve düşüncelerini paylaş."></textarea>
+    
+                </div>
+                <div .class="gonder">
+                    <button class="gonder" onclick="yaz()">Gönder</button>
+                </div>
+    
+                <img src="comment.png" alt="">
+                <h2>Yorumlar</h2>
+                <div>
+                <h5 id="your1" style="font-size: 20px; margin-left: 20px;" ></h5>
+                <span id="yorumunuz"></span>
+                </div>
+            </div>
+            <script>
+    
+                    function yaz() {
+    
+                        let texta= document.getElementById("texta").value
+                        
+                        document.getElementById("yorumunuz").innerHTML = texta;
+                        document.getElementById("your1").innerHTML = "Yorumunuz:"
+                            
+    
+                            
+                                
+                        
+                    }
+    
+            </script>
+
+        </div>
+
+
+
+
+    </body>
+</html>

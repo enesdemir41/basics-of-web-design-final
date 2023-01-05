@@ -1,0 +1,1317 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+    
+
+#header{
+    list-style: none;
+    border-radius: 20px;
+    background-color: rgb(250, 247, 247);
+    width: 1260px;
+    height: 80px;
+    text-align: center;
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+    padding-top: 20px;
+    
+    
+
+    
+    
+}
+
+#homepage{
+    width: 100px;
+    height: 80px;
+    background-color: rgb(250, 247, 247);
+
+    float: left;
+    transition: 0.3s;
+}
+
+
+
+a{
+    text-decoration:none;
+    
+}
+
+.headerhover:hover{
+    transform: scale(1.2);
+}
+
+
+#header-menu1{
+    width: 100px;
+    height: 25px;
+    margin-left: 20px;
+    float: left;
+    margin-top: 15px;
+    transition: 0.3s;
+
+}
+
+
+#header-menu1:hover{
+    transform:scale(1.2);
+}
+
+
+#header-menu2{
+    width: 100px;
+    height: 25px;
+   
+    margin-left: 70px;
+    float: left;
+    margin-top: 15px;
+    transition: 0.3s;
+
+}
+
+#header-menu3{
+    width: 100px;
+    height: 25px;
+    
+    margin-left: 70px;
+    float: left;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+#header-menu4{
+    width: 100px;
+    height: 25px;
+    
+    margin-left: 70px;
+    float: left;
+    margin-top: 15px;
+    transition: 0.3s;
+
+}
+
+#header-menu5{
+    width: 100px;
+    height: 25px;
+    
+    margin-left: 70px;
+    float: left;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+#header-menu6{
+    width: 100px;
+    height: 25px;
+    
+    margin-left: 70px;
+    float: left;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+#header-menu7{
+    width: 100px;
+    height: 25px;
+    
+    margin-left: 65px;
+    float: left;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+
+
+
+#hosgeldin{
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: auto;
+    height: 300px;
+    font-size: 85px;
+    padding-top: 20px;
+}
+
+
+#hosgeldin-1{
+    background-color:rgb(255, 255, 255);
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+
+#metin1{
+    font-size: 22px;
+    background-color: rgb(255, 255, 255);
+}
+
+#kazanmak{
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: auto;
+    height: 100px;
+    font-size: 30px;
+    padding-top: 40px;
+    
+}
+
+h4{
+    text-align: center;
+}
+
+#haber{
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 20px;
+    background-color: rgb(138, 235, 235);
+    font-size: 20px;
+    text-align: center;
+    width: 200px;
+    height: 400px;
+    float: left;
+    transition: 0.5s;
+    
+    
+}
+
+#haber:hover{
+    transform: scale(1.2);
+    background: rgba(138, 235, 235, 0.607);
+
+}
+
+#haberresim{
+    
+    width: 150px;
+    height: 150px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    
+}
+
+#deger{
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 20px;
+    background-color: rgb(138, 235, 235);
+    text-align: center;
+    font-size: 19px;
+    width: 200px;
+    height: 400px;
+    float: left;
+    transition: 0.5s;
+    
+    
+}
+
+#deger:hover{
+    transform: scale(1.2);
+    background-color: rgba(138, 235, 235, 0.607);
+}
+
+#grafikresim{
+    
+    width: 200px;
+    height: 150px;
+    padding-left: 8px;
+    padding-bottom: 5px;
+    margin-top: 70px;
+
+}
+
+#egitim{
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 20px;
+    background-color: rgb(138, 235, 235);
+    text-align: center;
+    font-size: 20px;
+    width: 200px;
+    height: 400px;
+    float: left;
+    transition: 0.5s;
+    
+    
+
+}
+
+#egitim:hover{
+transform: scale(1.2);
+background-color: rgba(138, 235, 235, 0.607);
+
+}
+
+#educationresim{
+    width: 150px;
+    height: 150px;
+    padding-left: 18px;
+    padding-top: 15px;
+    margin-top: 60px;
+}
+
+#makale{
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 20px;
+    background-color: rgb(138, 235, 235);
+    text-align: center;
+    font-size: 20px;
+    width: 200px;
+    height: 400px;
+    float: left;
+    transition: 0.5s;
+    
+}
+
+#makale:hover{
+    transform: scale(1.2);
+    background: rgba(138, 235, 235, 0.607);
+}
+
+#makaleresim{
+    width: 150px;
+    height: auto;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-top: 80px;
+}
+
+/*anasayfa bitti/////////////*/
+
+
+
+#container{
+    width: auto;
+    height: 1500px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 0px;
+    margin-right: auto;
+    
+}
+
+#icerik{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 600px;
+    height: 300px;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+#icerikfoto{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    float: left;
+    width: 500px;
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 10px;
+    transition: 0.3s;
+
+}
+
+#icerikfoto img{
+    width: 500px;
+    height: 400px;
+}
+
+
+
+#hey{
+    background-color: rgb(255, 255, 255);
+    height: 10px;
+    clear: both;
+}
+
+#icerik2foto{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 500px;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    
+
+}
+
+
+
+#icerik2foto img{
+    width: 450px;
+    height: 400px;
+}
+
+#icerik2{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    float: right;
+    width: 500px;
+    height: 300px;
+    margin-top: 10px;
+    margin-right: 45px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+   
+
+
+
+}
+
+
+
+#hey2{
+    background-color: rgb(255, 255, 255);
+    height: 10px;
+    clear: both;
+}
+
+#icerik3{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.3s;
+    
+
+}
+
+
+
+#icerik3foto{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    float: right;
+    width: 600px;
+    height: 300px;
+    margin-top: 10px;
+    margin-right: 45px;
+    
+
+
+}
+
+#icerik3foto img{
+    width: 600px;
+    height: 300px;
+}
+
+
+/*kripto sayfası///////////*/
+
+#container2{
+    width: auto;
+    height: 2300px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 0px;
+    margin-right: auto;
+
+}
+
+#soru{
+    border-radius: 20px;
+    width: 900px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 200px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+#cizgi{
+    background-color: rgb(255, 255, 255);
+    height: 10px;
+    clear: both;
+}
+
+#kriptocontent{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 450px;
+    width: 500px;
+    margin-left: 40px;
+    margin-top: 30px;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+}
+
+#kriptofoto{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 450px;
+    width: 650px;
+    margin-left: 40px;
+    margin-top: 30px;
+    float: left;
+
+}
+
+#kriptofoto img{
+    height: 400px;
+    width: 400px;
+    padding-left: 120px;
+    padding-top: 10px;
+
+}
+
+#kriptocontent1{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 450px;
+    width: 650px;
+    margin-left: 40px;
+    margin-top: 30px;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+}
+
+#kriptofoto1{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 450px;
+    width: 500px;
+    margin-left: 40px;
+    margin-top: 30px;
+    float: left;
+
+}
+
+#kriptofoto1 img{
+    width: 450px;
+    height: auto;
+    padding-left: 40px;
+}
+
+#kriptocontent2{
+    border-radius: 20px;
+    height: 650px;
+    width: 550px;
+    
+    margin-left: 50px;
+    text-align: center;
+    font-size: 30px;
+    float: left;
+    margin-top: 20px;
+    
+}
+
+#kriptocontent2foto{
+    height: 600px;
+    width: 500px;
+    margin-left: 700px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#kriptocontent2foto img{
+    height: 600px;
+    margin-left: 0px;
+    width: 500px;
+}
+
+#soru2{
+    border-radius: 20px;
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#soru2 p{
+    padding-top: 20px;
+    font-size: 45px;
+}
+
+
+/*haberlerrrr sayfası*/
+
+#container3{
+    width: auto;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 0px;
+    margin-right: auto; 
+
+}
+
+.haber{
+    border-radius: 20px;
+    background-color: rgb(138, 235, 235);
+    height: 300px;
+    width: 250px;
+    float: left;
+    margin-left: 55px;
+    margin-top: 50px;
+    transition: 0.3s;
+    
+}
+.haber img{
+    border-radius: 20px;
+    width: 230px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
+.haber:hover{
+    height: 350px;
+    background: rgba(138, 235, 235, 0.607);
+
+}
+
+.devam{
+    border-radius: 20px;
+    margin-top: 130px;
+    visibility: hidden;
+    margin-left: 25px;
+    
+    width: 200px;
+    font-size: 15px;
+    text-align: center;
+    
+    
+}
+
+.devam p{
+    border-radius: 10px;
+    background-color: rgba(100, 77, 57, 0.425);
+    transition: 0.5s;
+    opacity: 0;
+    width: 180px;
+    color: azure;
+    
+
+}
+
+.haber:hover .devam{
+    visibility: visible;
+    
+}
+
+.haber:hover .devam p{
+    opacity: 1;
+    width: 200px;
+
+   
+    
+}
+
+#hey3{
+    background-color: rgb(255, 255, 255);
+    height: 10px;
+    clear: both;
+    margin-top: 100px;
+
+}
+
+h4{
+    color: rgb(91, 91, 91);
+}
+
+.fixed{
+    border-radius: 20px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 400px;
+    height: 60px;
+    background-color: rgb(237, 240, 233);
+    transition: 0.3s;
+    
+
+}
+
+.fixed h4{
+    border-radius: 20px;
+    background-color: rgb(237, 240, 233);
+    height: 60px;
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 20px;
+    transition: 0.4s;
+    z-index: -999;
+    
+    
+}
+
+
+
+.fixed p{
+    text-shadow: 2px 2px 5px rgb(30, 26, 26);
+    text-align: center;
+    width: 80px;
+    margin-left: 40px;
+}
+
+.fixed:hover{
+    height: 400px;
+    width: 400px;
+}
+
+#isim{
+    
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgb(253, 253, 253);
+    margin-left: 50px;
+}
+
+#soyisim{
+    border-radius: 5px;
+    background-color: rgb(253, 253, 253);
+    margin-left: 50px;
+
+}
+
+#eposta{
+    border-radius: 5px;
+    background-color: rgb(253, 253, 253);
+    margin-left: 50px;
+    
+
+}
+
+#istiyorum{
+    border-radius: 5px;
+    background-color: rgb(253, 253, 253);
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+
+
+
+/*ANALİZ SAYFASI */
+
+#container5{
+    width: auto;
+    height: 2300px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 0px;
+    margin-right: auto;
+}
+
+#analizbaslik{
+    width: 1200px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+#analizbaslik h2{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+.analizler{
+    border-radius: 20px;
+    background-color: rgb(246, 242, 242);
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 1000px;
+}
+
+.analizler h3{
+    
+    margin-left: 10px;
+    text-align: left;
+    font-size: 30px;
+    width: 700px;
+    
+}
+
+.icsol{
+    border-radius: 20px;
+    
+    width: 700px;
+    height: 100px;
+    margin-left: 20px;
+    float: left;
+}
+
+
+.icsag{
+    border-radius: 20px;
+    
+    width: 250px;
+    height: 100px;
+    margin-left: 740px;
+    margin-top: 0px;
+}
+
+.icsag img{
+    border-radius: 20px;
+    width: 250px;
+}
+
+/*ANALİZ SAYFASI BİTTİ*/
+
+/*haber yorum bölümü */
+
+#container6{
+    width: auto;
+    height: 1300px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 0px;
+    margin-right: auto;
+}
+
+.yorum{
+    border-radius: 20px;
+    background-color: #e0e7e0;
+    width: 700px;
+    height: 450px;
+    margin-left: 80px;
+    
+}
+.yorum h2{
+    
+    margin-left: 70px;
+    margin-top: 30px;
+    font-size: 20px;
+   
+}
+
+.yorum img{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+.kulyorum{
+    border-radius: 20px;
+    margin-top: 0px;
+    width: 500px;
+    height: 200px;
+    margin-left: 40px;
+}
+
+.kulyorum textarea{
+    margin-top: 20px;
+    border-radius: 1px;
+    background: transparent;
+    color: black;
+    width: 500px;
+    height: 150px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border: 1px solid black !important;
+}
+.gonder{
+    
+    border-radius: 5px;
+    background-color: rgb(253, 253, 253);
+    margin-left: 50px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+#yorumunuz{
+    
+    border-radius: 5px;
+    margin-top: 2000px;
+    margin-left: 20px;
+    font-size: 20px;
+    padding-right: 50px;
+}
+
+/* haber yorum bölümü */
+
+.icanalizresim{
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 300px;
+    margin-left: 340px;
+}
+
+.icanalizresim img{
+    border-radius: 20px;
+    width: 600px;
+    height: 300px;
+}
+
+.icanalizicerik{
+    border-radius: 20px;
+    margin-left: 20px;
+    
+    width: 1220px;
+    height: 500px;
+    margin-top: 20px;
+
+}
+
+.icanalizicerik p{
+    text-align: center;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+/*MAKALE ANA SAYFASI*/
+
+#container4{
+    width: auto;
+    height: 4000px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 0px;
+    margin-right: auto;
+
+}
+
+#analizbaslik{
+    width: 1200px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+#makalebaslik h2{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+.makaleler{
+    border-radius: 20px;
+    background-color: rgb(241, 241, 245);
+    width: 500px;
+    height: 500px;
+    margin-left: 90px;
+    margin-top: 200px;
+    float: left;
+    transition: 0.3s;
+}
+
+.makaleler:hover{
+    height: 590px;
+}
+
+.makaleler img{
+    border-radius: 20px;
+    width: 500px;
+    height: 200px;
+
+}
+
+.makaleler h4{
+    font-size: 25px;
+}
+
+.makaleler p{
+    text-align: center;
+}
+
+
+.devam{
+    border-radius: 20px;
+    margin-top: 130px;
+    visibility: hidden;
+    margin-left: 25px;
+    
+    width: 200px;
+    font-size: 15px;
+    text-align: center;
+    
+    
+}
+
+.devam p{
+    border-radius: 10px;
+    background-color: rgba(100, 77, 57, 0.425);
+    transition: 0.5s;
+    opacity: 0;
+    width: 180px;
+    color: azure;
+    
+
+}
+
+.makaleler:hover .devam{
+    visibility: visible;
+    
+}
+
+.makaleler:hover .devam p{
+    opacity: 1;
+    width: 200px;
+
+   
+    
+}
+
+.makaleicerik{
+    height: 1200px;
+    width: auto;
+}
+
+.makaleicerik img{
+    border-radius: 20px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.makalemetin{
+
+    text-align: center;
+
+}
+
+/* makale ve makaleeler sayfalırı bitii */
+
+/*grafik sayfası*/
+
+
+#container-grafik{
+    width: auto;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 0px;
+    margin-right: auto;
+
+}
+
+#grafik-baslik{
+    width: 1200px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    margin-left: 40px;
+
+}
+
+#grafik-baslik h2{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+
+}
+
+/*eğitim sayfası*/
+
+#egitim-container{
+
+    width: auto;
+    height: 1500px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 0px;
+    margin-right: auto;
+
+}
+
+#egitim-baslik{
+    width: 1200px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+#egitim-baslik h2{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+
+}
+
+.anket{
+    background-color: red;
+    width: 250px;
+    height: 50px;
+    margin-left: 500px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.anket input{
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.button{
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.button:hover{
+    background-color: rgb(38, 152, 240);
+}
+
+.kabul{
+    background-color: red;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.tanitim{
+    border-radius: 10px;
+    margin-top: 100px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+/* EĞİTİM SAYFASI BİTTİ */
+
+/* Yatırım Sayfası */
+
+#yatirim-container{
+    width: auto;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    margin-left: 40px;
+    
+}
+
+.yatirim-icerik{
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 400px;
+    float: left;
+
+}
+
+.yatirim-icerik2 img{
+    border-radius: 10px;
+    width: 500px;
+    height: 400px;
+    margin-left: 150px;
+
+}
+
+
+
+
+
+/* responsive header */
+
+/*ANASAYFA RESPONSİVE tablet*/
+@media only screen and (max-width:992px){
+
+    #header{
+        
+        width: auto;}
+        #header-menu1{
+            margin-top: 0px;
+            margin-left: 40px;
+    
+        }
+        #header-menu2{
+            margin-top: 0px;
+            margin-left: 40px;
+    
+        }
+        #header-menu3{
+            margin-top: 0px;
+            margin-left: 40px;
+    
+        }
+        #header-menu4{
+            margin-top: 0px;
+            margin-left: 40px;
+    
+        }
+        #header-menu5{
+            margin-top: 0px;
+            margin-left: 40px;
+    
+        }
+        #header-menu6{
+            
+            margin-left: 300px;
+    
+        }
+        #header-menu7{
+            
+            margin-left: 100px;
+    
+        }
+        #homepage{
+            display: none;
+        }
+        /*ANASAYFA RESPONSİVE tablet orta*/
+
+
+    
+        #hosgeldin-1{
+            margin-top: 10px;
+            margin-left: 50px;
+            margin-right: 50px;
+            font-size: 65px;
+        }
+        
+        #metin1{
+            font-size: 19px;
+        }
+    
+        #kazanmak{
+            font-size: 25px;
+        }
+    
+        #haber{
+            flex-direction: row;
+            margin-left: 180px;
+        }
+    
+        #deger{
+            flex-direction: row;
+            margin-left: 180px;
+        }
+    
+        #egitim{
+            flex-direction: row;
+            margin-left: 180px;
+            
+        }
+    
+        #makale{
+            flex-direction: row;
+            margin-left: 180px;
+        }
+}
+
+
+
+
+
+
+@media only screen and (max-width:768px){
+    #header{
+        
+    width: auto;}
+    #header-menu1{
+        margin-top: 0px;
+        margin-left: 40px;
+
+    }
+    #header-menu2{
+        margin-top: 0px;
+        margin-left: 40px;
+
+    }
+    #header-menu3{
+        margin-top: 0px;
+        margin-left: 40px;
+
+    }
+    #header-menu4{
+        margin-top: 0px;
+        margin-left: 40px;
+
+    }
+    #header-menu5{
+        margin-top: 0px;
+        margin-left: 40px;
+
+    }
+    #header-menu6{
+        
+        margin-left: 230px;
+
+    }
+    #header-menu7{
+        
+        margin-left: 100px;
+
+    }
+    #homepage{
+        display: none;
+    }
+
+/*ANASAYFA RESPONSİVE telefon*/
+
+
+    #hosgeldin-1{
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 65px;
+    }
+    
+    #metin1{
+        font-size: 19px;
+    }
+
+    #kazanmak{
+        font-size: 25px;
+        margin-left: 100px;
+    }
+
+    #haber{
+        flex-direction: row;
+        margin-left: 100px;
+    }
+
+    #deger{
+        flex-direction: row;
+        margin-left: 100px;
+    }
+
+    #egitim{
+        flex-direction: row;
+        margin-left: 100px;
+    }
+
+    #makale{
+        flex-direction: row;
+        margin-left: 100px;
+    }
+    
+    
+
+    
+}
