@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <title>Borsa İstanbul, 121 bin 579 puanla tüm zamanların</title>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        
+        <div id="header">
+        
+            <div id="headerresim">
+                <div id="homepage">
+    
+                    <a href="index.html" ><img id="homepage" class="headerhover" src="trade.png" alt=""></a>
+    
+                </div>
+                
+                
+    
+            </div>
+    
+            <div id="header-menu1" class="headerhover">
+                <a href="borsa.html">BORSA</a>
+            </div>
+    
+            <div id="header-menu2" class="headerhover">
+                <a href="kripto.html" >KRİPTO PARALAR</a>
+            </div>
+    
+            <div id="header-menu3" class="headerhover">
+                <a href="analiz.html" >ANALİZ</a>
+            </div>
+            
+            <div id="header-menu4" class="headerhover">
+                <a href="borsa.html" >EĞİTİM</a>
+            </div>
+    
+            <div id="header-menu5" class="headerhover">
+                <a href="haberler.html" >HABERLER</a>
+            </div>
+    
+            <div id="header-menu6" class="headerhover">
+                <a href="makale.html" >MAKALELER</a>
+    
+            </div>
+    
+            <div id="header-menu7" class="headerhover">
+                <a href="borsa.html">YATIRIM</a>
+            
+             </div>
+    
+                
+        </div>
+
+        <div id="container6">
+            <div class="icanalizresim">
+                <img src="haber4.jpg" alt="">
+            </div>
+            <div class="icanalizicerik">
+                <p>
+                    Borsa İstanbul, 121 bin 579 puanla tüm zamanların rekorunu kırdı. <br>
+                    <br> Borsa İstanbul endeksi, 121.579,07 puan ile tüm zamanların en yüksek seviyesini gördü.
+
+                    Veri takviminde ise Almanya'nın büyümesi ve Euro Bölgesi'nde sanayi üretiminin öne çıktığını ifade eden uzmanlar, teknik açıdan BIST 100 endeksinde tarihi zirvenin aşılması durumunda yaklaşık 3 aydır devam eden yükseliş trendinin direnci konumundaki 127.300 seviyesinin direnç, 120.000 ve 118.200 seviyelerinin ise destek olarak öne çıktığını kaydetti. <br>
+
+                    <br> ABD-ÇİN İMZA TÖRENİ 
+
+                    ABD ile Çin arasında birinci faz ticaret anlaşması, Beyaz Saray'da imzalanacak. ABD Hazine Bakanı Steven Mnuchin, faz 1 ticaret anlaşmasının tamamen uygulanabilir olduğunu, anlaşmanın Çin'in para birimini manipüle etmekten uzak duracağına dair taahhütünü de içerdiğini bildirdi. <br>
+
+                    <br> GÖZLER MERKEZ BANKASI'NIN FAİZ KARARINDA
+                    ABD-İran gerginliğinin gerilemesi, Libya ile ilgili ateşkes sürecine girilmesi ve petrol fiyatlarının durulması sonrasında gözler, Merkez Bankası'nın perşembe günü vereceği faiz kararına çevrildi. <br>
+                </p>
+            </div>
+
+            <div class="yorum">
+
+                <div class="kulyorum">
+                    <textarea type="text" id="texta" onchange="yaz()" name="comment" maxlength="255" placeholder="Sen de soru ve düşüncelerini paylaş."></textarea>
+    
+                </div>
+                <div .class="gonder">
+                    <button class="gonder" onclick="yaz()">Gönder</button>
+                </div>
+    
+                <img src="comment.png" alt="">
+                <h2>Yorumlar</h2>
+                <div>
+                <h5 id="your1" style="font-size: 20px; margin-left: 20px;" ></h5>
+                <span id="yorumunuz"></span>
+                </div>
+            </div>
+            <script>
+    
+                    function yaz() {
+    
+                        let texta= document.getElementById("texta").value
+                        
+                        document.getElementById("yorumunuz").innerHTML = texta;
+                        document.getElementById("your1").innerHTML = "Yorumunuz:"
+                            
+    
+                            
+                                
+                        
+                    }
+    
+            </script>
+
+        </div>
+
+        
+
+
+    </body>
+</html>
